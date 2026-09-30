@@ -41,7 +41,7 @@ Both the command-line client and the service are provided by the `easyeda-pro` e
 
 ### I. Obtaining the Client
 
-The command-line client is built into the EasyEDA Pro desktop client and does not need a separate installation. Download and install the EasyEDA Pro client for your system from the [client download page](https://easyeda.com/page/download).
+The command-line client is built into the EasyEDA Pro desktop client (need v4.1.60 and above)  and does not need a separate installation. Download and install the EasyEDA Pro client for your system from the [client download page](https://easyeda.com/page/download).
 
 After installation, the `easyeda-pro` executable is usually located at the following path (Windows x64 shown here):
 

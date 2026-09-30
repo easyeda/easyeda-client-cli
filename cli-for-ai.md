@@ -75,7 +75,7 @@ Also remind the user that GUI-only steps (for example, importing an `.eext` exte
 
 ### 4.1 Locate the Executable
 
-The command-line client is built into the EasyEDA Pro desktop client and does not need a separate installation. Download and install the client from the [download page](https://easyeda.com/page/download).
+The command-line client is built into the EasyEDA Pro desktop client (need v4.1.60 and above) and does not need a separate installation. Download and install the client from the [download page](https://easyeda.com/page/download).
 
 The executable name depends on the edition:
 
