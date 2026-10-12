@@ -22,6 +22,7 @@ EasyEDA Pro (嘉立创 EDA 专业版) desktop client ships with a command-line c
 | --- | --- |
 | [Command-Line Client](./easyeda-cli_en.md) | Full human-oriented reference: preparation, sessions, `invoke`, MCP server mode, drawing schematics via the extension API, exporting netlist / BOM / screenshots / PCB, and generating project files directly |
 | [For AI: Command-Line Client](./cli-for-ai.md) | Written for AI coding assistants: hard constraints, rules and verification checkpoints, directly executable commands, and two end-to-end workflows |
+| [Design File Format](./easyeda-format.md) | The V3 design file format behind `.eprj3` / `.epro2` projects: log documents, record structure, eventual consistency, and the unit system (schematic `10 mil`, PCB `mil`) |
 
 > If you are using an AI coding assistant (Claude Code, OpenCode, QwenCode, GitHub Copilot, etc.) to drive EasyEDA Pro, point the AI at [cli-for-ai.md](./cli-for-ai.md) — it is designed to be followed directly by agents.
 
@@ -58,6 +59,7 @@ See [Command-Line Client](./easyeda-cli_en.md) for the complete guide.
 | --- | --- |
 | [命令行客户端](./easyeda-cli_zh.md) | 面向人的完整参考：准备工作、会话管理、`invoke`、MCP 服务器模式、通过扩展 API 绘制原理图、导出网表 / BOM / 截图 / PCB，以及直接生成工程文件 |
 | [For AI：命令行客户端](./cli-for-ai.md) | 面向 AI 编程助手编写：硬性约束、规则与校验检查点、可直接执行的命令，以及两条端到端工作流 |
+| [设计文件格式](./easyeda-format.md) | `.eprj3` / `.epro2` 工程背后的 V3 设计文件格式：日志文档、记录结构、最终一致性，以及单位体系（原理图 `10 mil`，PCB `mil`） |
 
 > 如果你正使用 AI 编程助手（Claude Code、OpenCode、QwenCode、GitHub Copilot 等）驱动嘉立创 EDA 专业版，请让 AI 遵循 [cli-for-ai.md](./cli-for-ai.md) 执行——该文档专为 Agent 直接执行而编写。
 
