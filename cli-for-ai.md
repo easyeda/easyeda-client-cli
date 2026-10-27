@@ -19,7 +19,7 @@ Read this document when the user asks you to drive EasyEDA Pro from the command 
 
 | Fact | Description |
 | --- | --- |
-| Product | EasyEDA Pro **desktop client** (CLI requires v4.1.60 or above). The browser / online edition does not support sessions or the bridge |
+| Product | EasyEDA Pro **desktop client** (CLI requires v4.1.70 or above; download the latest version). The browser / online edition does not support sessions or the bridge |
 | Executable | `easyeda-pro` (international) or `lceda-pro` (mainland China). If the command is not found, ask the user to install or locate the client; do not install it yourself |
 | Bridge | Every command talks to the running editor through a local bridge |
 | Session | One editor window equals one session. The session is created by a command and returns a session ID; later commands need that ID |

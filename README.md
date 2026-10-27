@@ -10,6 +10,7 @@ EasyEDA Pro (嘉立创 EDA 专业版) desktop client ships with a command-line c
 
 ### What the CLI provides
 
+- Requires EasyEDA Pro desktop client **V4.1.70** or above; always download the latest version, as older versions do not include the CLI;
 - Opening and creating projects, and managing multiple editor windows (sessions);
 - Executing JavaScript inside the editor, and therefore calling any [extension API](https://prodocs.easyeda.com/en/api/reference/pro-api.html);
 - Querying the extension API reference and the design file format reference (`.eprj3`);
@@ -28,7 +29,7 @@ EasyEDA Pro (嘉立创 EDA 专业版) desktop client ships with a command-line c
 
 ### Quick start
 
-> **Note:** The CLI requires EasyEDA Pro client **V4.1.60** or above.
+> **Note:** The CLI requires EasyEDA Pro client **V4.1.70** or above. Downloading the latest version is recommended.
 
 ```shell
 # The CLI is built into the desktop client; verify the runtime environment first
@@ -43,10 +44,17 @@ easyeda-pro invoke --ext-uuid eda "eda.sys_Message.showMessage('Hello EasyEDA!')
 
 See [Command-Line Client](./easyeda-cli.md) for the complete guide.
 
+### Notes
+
+- **Version requirement:** The CLI requires EasyEDA Pro client **V4.1.70** or above; download the latest version. Older versions do not include the command-line client.
+- The CLI requires the **desktop client** of EasyEDA Pro; the browser / online edition does not support sessions and the bridge.
+- The executable name differs between distributions: `easyeda-pro` (international) and `lceda-pro` (China). The commands and documents above match each distribution accordingly.
+
 ## 中文
 
 ### CLI 提供的能力
 
+- 要求嘉立创 EDA 专业版桌面客户端 **V4.1.70** 及以上，建议始终下载最新版本；更早版本的客户端不包含命令行客户端；
 - 打开、新建工程，并在多个编辑器窗口（会话）之间进行管理；
 - 在编辑器内执行 JavaScript 代码，从而调用任意 [扩展 API](https://prodocs.lceda.cn/api/reference/pro-api.html)；
 - 查询扩展 API 参考文档与设计文件格式规范（`.eprj3`）;
@@ -65,7 +73,7 @@ See [Command-Line Client](./easyeda-cli.md) for the complete guide.
 
 ### 快速开始
 
-> **注意：** 命令行客户端要求客户端版本在 **V4.1.60** 及以上。
+> **注意：** 命令行客户端要求客户端版本在 **V4.1.70** 及以上，建议下载最新版本。
 
 ```shell
 # CLI 内置于客户端，先确认运行环境
@@ -80,12 +88,10 @@ lceda-pro invoke --ext-uuid eda "eda.sys_Message.showMessage('Hello EasyEDA!')"
 
 完整指南请阅读[命令行客户端](./easyeda-cli.md)。
 
-## Notes / 说明
+### 说明
 
-- **Version requirement / 版本要求：the CLI requires EasyEDA Pro client `V4.1.60` or above; older versions do not include the command-line client. / 命令行客户端要求客户端版本在 `V4.1.60` 及以上，更早版本的客户端不包含该功能。**
-- The CLI requires the **desktop client** of EasyEDA Pro; the browser / online edition does not support sessions and the bridge.
+- **版本要求：** 命令行客户端要求客户端版本在 **V4.1.70** 及以上，建议下载最新版本；更早版本的客户端不包含该功能。
 - 命令行客户端要求使用**客户端版本**的嘉立创 EDA 专业版，浏览器 / 在线版本不支持会话与桥接功能。
-- The executable name differs between distributions: `easyeda-pro` (international) and `lceda-pro` (China). The documentation above matches each distribution accordingly.
 - 可执行文件名因发行渠道不同而异：国际版为 `easyeda-pro`，国内版为 `lceda-pro`。上文各语言文档与对应发行渠道保持一致。
 
 ## License

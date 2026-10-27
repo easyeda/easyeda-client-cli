@@ -14,7 +14,7 @@ Besides the graphical interface, the EasyEDA Pro desktop client ships with a com
 
 | Item | Description |
 | --- | --- |
-| Product | EasyEDA Pro **desktop client** v4.1.60 or above. The browser / online edition does not support sessions or the bridge |
+| Product | EasyEDA Pro **desktop client** v4.1.70 or above (the latest version is recommended). The browser / online edition does not support sessions or the bridge |
 | Executable | `easyeda-pro` (international) or `lceda-pro` (mainland China); the same binary starts the GUI and serves the CLI |
 | Installation | The CLI is built into the client and needs no separate installation. Download from the [client download page](https://easyeda.com/page/download); specific versions are available from the [client release history](https://prodocs.easyeda.com/en/faq/client-version.html) |
 
@@ -70,7 +70,7 @@ The CLI can run as an MCP server so that an AI coding assistant can use it direc
 
 | 项目 | 说明 |
 | --- | --- |
-| 产品 | 嘉立创 EDA 专业版**桌面客户端** v4.1.60 及以上。浏览器 / 在线版本不支持会话与桥接功能 |
+| 产品 | 嘉立创 EDA 专业版**桌面客户端** v4.1.70 及以上，建议下载最新版本。浏览器 / 在线版本不支持会话与桥接功能 |
 | 可执行文件 | 国际版为 `easyeda-pro`，国内版为 `lceda-pro`；同一可执行文件既用于启动图形界面，也用于执行命令行操作 |
 | 安装 | 命令行客户端内置于客户端，无需单独安装。请前往[客户端下载页面](https://lceda.cn/page/download)下载；特定版本可前往[客户端历史版本](https://prodocs.lceda.cn/faq/client-version.html)页面获取 |
 
