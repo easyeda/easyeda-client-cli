@@ -20,8 +20,8 @@ EasyEDA Pro (嘉立创 EDA 专业版) desktop client ships with a command-line c
 
 | Document | Description |
 | --- | --- |
-| [Command-Line Client](./easyeda-cli_en.md) | Full human-oriented reference: preparation, sessions, `invoke`, MCP server mode, drawing schematics via the extension API, exporting netlist / BOM / screenshots / PCB, and generating project files directly |
-| [For AI: Command-Line Client](./cli-for-ai.md) | Written for AI coding assistants: hard constraints, rules and verification checkpoints, directly executable commands, and two end-to-end workflows |
+| [Command-Line Client](./easyeda-cli.md) | Bilingual (English / 中文) overview: requirements, capabilities, core concepts, and how to discover commands and read help at runtime — no hard-coded command examples |
+| [For AI: Command-Line Client](./cli-for-ai.md) | Written for AI coding assistants: how to discover commands, search by keyword, read `--help` usage, and query the built-in API / file-format reference at runtime — no hard-coded command or API examples, since the CLI is still evolving |
 | [Design File Format](./easyeda-format.md) | The V3 design file format behind `.eprj3` / `.epro2` projects: log documents, record structure, eventual consistency, and the unit system (schematic `10 mil`, PCB `mil`) |
 
 > If you are using an AI coding assistant (Claude Code, OpenCode, QwenCode, GitHub Copilot, etc.) to drive EasyEDA Pro, point the AI at [cli-for-ai.md](./cli-for-ai.md) — it is designed to be followed directly by agents.
@@ -41,7 +41,7 @@ easyeda-pro session open
 easyeda-pro invoke --ext-uuid eda "eda.sys_Message.showMessage('Hello EasyEDA!')"
 ```
 
-See [Command-Line Client](./easyeda-cli_en.md) for the complete guide.
+See [Command-Line Client](./easyeda-cli.md) for the complete guide.
 
 ## 中文
 
@@ -57,8 +57,8 @@ See [Command-Line Client](./easyeda-cli_en.md) for the complete guide.
 
 | 文档 | 说明 |
 | --- | --- |
-| [命令行客户端](./easyeda-cli_zh.md) | 面向人的完整参考：准备工作、会话管理、`invoke`、MCP 服务器模式、通过扩展 API 绘制原理图、导出网表 / BOM / 截图 / PCB，以及直接生成工程文件 |
-| [For AI：命令行客户端](./cli-for-ai.md) | 面向 AI 编程助手编写：硬性约束、规则与校验检查点、可直接执行的命令，以及两条端到端工作流 |
+| [命令行客户端](./easyeda-cli.md) | 双语（英文 / 中文）概览：版本要求、能力、核心概念，以及在运行时查找命令与读取帮助的方法——不提供写死的命令范例 |
+| [For AI：命令行客户端](./cli-for-ai.md) | 面向 AI 编程助手编写：教会 AI 在运行时查找命令、按关键词搜索、读取 `--help` 用法，以及查询内置 API / 文件格式参考——不提供写死的命令与 API 范例，因为 CLI 仍在演进 |
 | [设计文件格式](./easyeda-format.md) | `.eprj3` / `.epro2` 工程背后的 V3 设计文件格式：日志文档、记录结构、最终一致性，以及单位体系（原理图 `10 mil`，PCB `mil`） |
 
 > 如果你正使用 AI 编程助手（Claude Code、OpenCode、QwenCode、GitHub Copilot 等）驱动嘉立创 EDA 专业版，请让 AI 遵循 [cli-for-ai.md](./cli-for-ai.md) 执行——该文档专为 Agent 直接执行而编写。
@@ -78,7 +78,7 @@ lceda-pro session open
 lceda-pro invoke --ext-uuid eda "eda.sys_Message.showMessage('Hello EasyEDA!')"
 ```
 
-完整指南请阅读[命令行客户端](./easyeda-cli_zh.md)。
+完整指南请阅读[命令行客户端](./easyeda-cli.md)。
 
 ## Notes / 说明
 
